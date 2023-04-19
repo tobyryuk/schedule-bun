@@ -11,10 +11,10 @@ const run = () => {
 
   switch (args[0]) {
     case "funcy":
-      funcy("./sample.json").forEach((s) => console.log(s));
+      funcy("./fixtures/sample.json").forEach((s) => console.log(s));
       break;
     case "literal":
-      literal("./sample.json").forEach((s) => console.log(s));
+      literal("./fixtures/sample.json").forEach((s) => console.log(s));
       break;
     default:
       console.error("Invalid argument");
